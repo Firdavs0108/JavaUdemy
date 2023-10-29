@@ -22,6 +22,10 @@ public class Shirt extends Product {
         this.size = size;
     }
 
+    public String getBrand2() {
+        return "Nike";
+    }
+
 
 
     @Override
@@ -40,7 +44,7 @@ public class Shirt extends Product {
     @Override
     public String toString() {
         return "{" +
-            " size='" + size + "'" +
+            " size='" + getSize() + "'" +
             "}";
     }
 
