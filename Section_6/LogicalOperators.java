@@ -8,6 +8,7 @@ public class LogicalOperators {
         boolean hasDrivingLicense = true;
         boolean hasInsurance = true;
 
+
         if (hasDrivingLicense && hasInsurance) {
             System.out.println("You can legally drive.");
         } else {
