@@ -1,4 +1,4 @@
-public class Main {
+public class Abc {
     public static void main(String[] args) {
         
     //      Car nissan = new Car();
@@ -23,16 +23,14 @@ public class Main {
         information.setNationality("Japan");
         information.setDateOfBirth("2000.09.09");
 
-        System.out.println(information);
+        // System.out.println(information);
 
-    //  Person infPerson = new Person();
+     Person infPerson = new Person(information);
 
-    // Person information = new Person("Firdavs", "Uzbek", "2000.00.00", 23, 22);
-    //         System.out.println(information.getName());
-    //         System.out.println(information.getDateOfBirth());
-    //         System.out.println(information.getNationality());
+            infPerson.setTicNum(21);
+            infPerson.setComeBackTime(12);
 
-    //         System.out.println(information);
+            System.out.println(infPerson.getComeBackTime());
     }
   
 }

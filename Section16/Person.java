@@ -8,6 +8,7 @@ public class Person {
    private String[] passport;
    private int seatNumber;
    private int comeBackTime;
+   private int ticNum;
 
         public Person(String name, String nationality, String dateOfBirth, int seatNumber, int comeBackTime){
             this.name = name;
@@ -15,11 +16,14 @@ public class Person {
             this.dateOfBirth = dateOfBirth;
             this.seatNumber =seatNumber;
             this.comeBackTime = comeBackTime;
+            // this.ticNum = ticNum;
+
         };
 
         public Person(Person source){
             this.name = source.name;                                  // Now database is       
-            this.dateOfBirth = source.dateOfBirth;                    //Copying first constructor
+            this.dateOfBirth = source.dateOfBirth; 
+            this.ticNum = source.ticNum;                   //Copying first constructor
         }
 
 
@@ -65,6 +69,14 @@ public class Person {
         this.seatNumber = seatNumber;
     }
 
+      public void setTicNum(int ticNum) {
+        this.ticNum = ticNum;
+    }
+
+       public int getTicNum(){
+        return ticNum;
+    }
+
     public int getComeBackTime(){
         return comeBackTime;
     }
@@ -94,7 +106,9 @@ public class Person {
             ", dateOfBirth='" + getDateOfBirth() + "'" +
             ", passport='" + getPassport() + "'" +
             ", seatNumber='" + getSeatNumber() + "'" +
-            ", comeBackTime='" + getComeBackTime() + "'" +
+            ", comeBackTime='" + getComeBackTime() + "'" +            
+            ", ticNum='" + getTicNum() + "'" +
+
             "}";
     }
    
