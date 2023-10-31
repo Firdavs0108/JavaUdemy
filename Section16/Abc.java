@@ -25,6 +25,7 @@ public class Abc {
 
         // System.out.println(information);
 
+        
      Person infPerson = new Person(information);
 
             infPerson.setTicNum(21);
