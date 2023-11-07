@@ -17,7 +17,7 @@ public class Main {
         
         System.out.println("\nMenu\n-------");
 
-        coffeeRatings.forEach((key, value) -> System.out.println("Coffee " + key + "Rating " + value));
+        
 
     }
 }
