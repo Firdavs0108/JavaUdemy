@@ -10,6 +10,7 @@ public class BreakAndContinueExamples {
             }
              System.out.println(i);
         }
+        
         // Example 2: Print numbers from 1 to 10, but skip the number 5 (using continue)
         // TODO: Write a loop that prints numbers from 1 to 10, but skips the number 5 using the 'continue' statement
 
