@@ -4,7 +4,8 @@ public class BreakAndContinueExamples {
         // Example 1: Print numbers from 1 to 10, but stop when the number 5 is reached (using break)
         // TODO: Write a loop that prints numbers from 1 to 10, but stops when the number 5 is reached using the 'break' statement
 
-        for (int i = 0; i < 10; i++) {
+        
+    for (int i = 0; i < 10; i++) {
             if (i == 5) {
                 continue;
             }
